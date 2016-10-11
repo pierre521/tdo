@@ -2341,17 +2341,30 @@ body {
   .cxe-layout-header a {
     margin: 0.5rem 1rem 0 2rem; }
 
+.cxb-textfield.cxm-search {
+  margin: 0 2em;
+  width: auto; }
+  .cxb-textfield.cxm-search .cxe-textfield-input {
+    background: transparent;
+    color: inherit;
+    border: none;
+    height: auto;
+    width: 20rem;
+    transition: width 0.5s; }
+    .cxb-textfield.cxm-search .cxe-textfield-input:placeholder-shown {
+      width: 10rem; }
+
 .cxe-taskboard-loading,
 .cxe-taskboard-error {
   padding: 3rem; }
 
 .cxe-taskboard-lists {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .cxb-tasklist {
-  min-width: 15rem;
-  max-width: 30rem;
+  width: 30rem;
   padding: 1rem 1.5rem; }
 
 .cxe-tasklist-header {
@@ -2413,7 +2426,8 @@ a {
   color: rgba(255, 255, 255, 0.8); }
 
 .cxb-tasklist {
-  border-right: 1px solid rgba(128, 128, 128, 0.1); }
+  border-right: 1px solid rgba(128, 128, 128, 0.1);
+  border-top: 1px solid rgba(128, 128, 128, 0.1); }
 
 .cxe-tasklist-header {
   color: rgba(255, 255, 255, 0.5); }
