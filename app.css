@@ -2383,8 +2383,15 @@ body {
 .cxb-task.cxs-completed .cxe-task-content {
   opacity: 0.3; }
 
+.cxb-github {
+  padding: 5rem;
+  max-width: 50rem; }
+
 body {
   background: #363636;
+  color: rgba(255, 255, 255, 0.8); }
+
+a {
   color: rgba(255, 255, 255, 0.8); }
 
 .cxb-tasklist {
