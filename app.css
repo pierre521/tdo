@@ -2436,4 +2436,5 @@ a {
   color: rgba(255, 255, 255, 0.5) !important; }
 
 .cxb-task a {
-  color: #00c1ff; }
+  color: #00c1ff;
+  text-decoration: none; }
