@@ -2338,10 +2338,16 @@ body {
   .cxe-layout-header h1 {
     margin: 0;
     font-size: 1.5rem; }
+  .cxe-layout-header a {
+    margin: 0.5rem 1rem 0 2rem; }
 
 .cxb-taskboard {
   display: flex;
   flex-direction: row; }
+
+.cxe-taskboard-loading,
+.cxe-taskboard-error {
+  padding: 3rem; }
 
 .cxb-tasklist {
   min-width: 10rem;
@@ -2383,8 +2389,8 @@ body {
 .cxb-task.cxs-completed .cxe-task-content {
   opacity: 0.3; }
 
-.cxb-github {
-  padding: 5rem;
+.cxb-settings {
+  padding: 3rem;
   max-width: 50rem; }
 
 body {
