@@ -2335,11 +2335,13 @@ body {
 .cxe-layout-header {
   display: flex;
   padding: 1rem; }
+  .cxe-layout-header .spacer {
+    width: 6rem; }
   .cxe-layout-header h1 {
     margin: 0;
     font-size: 1.5rem; }
   .cxe-layout-header a {
-    margin: 0.5rem 1rem 0 2rem; }
+    padding: 0.5rem 1rem; }
 
 .cxb-textfield.cxm-search {
   margin: 0 2em;
@@ -2418,16 +2420,33 @@ body {
   padding: 3rem;
   max-width: 50rem; }
 
+.cxb-help {
+  padding: 3rem; }
+  .cxb-help code {
+    text-align: center;
+    display: inline-block;
+    width: 6rem; }
+    .cxb-help code:last-child {
+      margin-right: 3rem; }
+
 body {
   background: #363636;
   color: rgba(255, 255, 255, 0.8); }
 
 a {
-  color: rgba(255, 255, 255, 0.8); }
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none; }
+  a:hover {
+    color: rgba(255, 255, 255, 0.8); }
+
+h2 {
+  font-weight: normal;
+  font-style: italic;
+  margin-top: 0; }
 
 .cxb-tasklist {
   border-right: 1px solid rgba(128, 128, 128, 0.1);
-  border-top: 1px solid rgba(128, 128, 128, 0.1); }
+  border-bottom: 1px solid rgba(128, 128, 128, 0.1); }
 
 .cxe-tasklist-header {
   color: rgba(255, 255, 255, 0.5); }
@@ -2436,5 +2455,22 @@ a {
   color: rgba(255, 255, 255, 0.5) !important; }
 
 .cxb-task a {
-  color: #00c1ff;
-  text-decoration: none; }
+  color: #00c1ff; }
+
+.cxe-layout-header {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.1); }
+  .cxe-layout-header a {
+    text-decoration: none; }
+    .cxe-layout-header a.active {
+      color: white;
+      background: rgba(128, 128, 128, 0.5); }
+
+.cxb-help code {
+  background: black;
+  border-radius: 5px;
+  padding: 5px; }
+
+.cxb-help hr {
+  border-top: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+  margin: 2rem 0; }
