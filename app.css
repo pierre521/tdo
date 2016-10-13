@@ -201,17 +201,18 @@
   border-width: 1px 1px 1px 1px;
   width: 100%;
   height: 100%;
-  font-size: 12.5px;
+  font-size: 13px;
   font-family: inherit;
-  border-color: #bfbfbf;
+  border-color: rgba(128, 128, 128, 0.1);
   border-style: solid;
   background-color: white;
-  color: black;
+  color: rgba(255, 255, 255, 0.9);
   outline-offset: 0;
   margin: 0;
   border-radius: 0;
   box-shadow: none;
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1); }
   .cxe-textfield-input:focus {
     border-color: rgba(77, 144, 254, 0.8);
     outline: none;
@@ -252,17 +253,18 @@
   border-width: 1px 1px 1px 1px;
   width: 100%;
   height: 100%;
-  font-size: 12.5px;
+  font-size: 13px;
   font-family: inherit;
-  border-color: #bfbfbf;
+  border-color: rgba(128, 128, 128, 0.1);
   border-style: solid;
   background-color: white;
-  color: black;
+  color: rgba(255, 255, 255, 0.9);
   outline-offset: 0;
   margin: 0;
   border-radius: 0;
   box-shadow: none;
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1); }
   .cxe-numberfield-input:focus {
     border-color: rgba(77, 144, 254, 0.8);
     outline: none;
@@ -288,17 +290,18 @@
   line-height: 16px;
   padding: 5px 5px 5px 5px;
   border-width: 1px 1px 1px 1px;
-  font-size: 12.5px;
+  font-size: 13px;
   font-family: inherit;
-  border-color: #bfbfbf;
+  border-color: rgba(128, 128, 128, 0.1);
   border-style: solid;
   background-color: white;
-  color: black;
+  color: rgba(255, 255, 255, 0.9);
   outline-offset: 0;
   margin: 0;
   border-radius: 0;
   box-shadow: none;
   -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1);
   width: 18em;
   font-size: 0.9em; }
   .cxb-calendar:focus {
@@ -364,17 +367,18 @@
   border-width: 1px 1px 1px 1px;
   width: 100%;
   height: 100%;
-  font-size: 12.5px;
+  font-size: 13px;
   font-family: inherit;
-  border-color: #bfbfbf;
+  border-color: rgba(128, 128, 128, 0.1);
   border-style: solid;
   background-color: white;
-  color: black;
+  color: rgba(255, 255, 255, 0.9);
   outline-offset: 0;
   margin: 0;
   border-radius: 0;
   box-shadow: none;
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1); }
   .cxe-datefield-input:focus {
     border-color: rgba(77, 144, 254, 0.8);
     outline: none;
@@ -453,17 +457,18 @@
   border-width: 1px 1px 1px 1px;
   width: 100%;
   height: 100%;
-  font-size: 12.5px;
+  font-size: 13px;
   font-family: inherit;
-  border-color: #bfbfbf;
+  border-color: rgba(128, 128, 128, 0.1);
   border-style: solid;
   background-color: white;
-  color: black;
+  color: rgba(255, 255, 255, 0.9);
   outline-offset: 0;
   margin: 0;
   border-radius: 0;
   box-shadow: none;
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1); }
   .cxe-lookupfield-input:focus {
     border-color: rgba(77, 144, 254, 0.8);
     outline: none;
@@ -555,17 +560,18 @@
   border-width: 1px 1px 1px 1px;
   width: 100%;
   height: 100%;
-  font-size: 12.5px;
+  font-size: 13px;
   font-family: inherit;
-  border-color: #bfbfbf;
+  border-color: rgba(128, 128, 128, 0.1);
   border-style: solid;
   background-color: white;
-  color: black;
+  color: rgba(255, 255, 255, 0.9);
   outline-offset: 0;
   margin: 0;
   border-radius: 0;
   box-shadow: none;
   -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1);
   margin: 5px;
   height: auto;
   width: calc(100% - 10px); }
@@ -664,17 +670,18 @@
   border-width: 1px 1px 1px 1px;
   width: 100%;
   height: 100%;
-  font-size: 12.5px;
+  font-size: 13px;
   font-family: inherit;
-  border-color: #bfbfbf;
+  border-color: rgba(128, 128, 128, 0.1);
   border-style: solid;
   background-color: white;
-  color: black;
+  color: rgba(255, 255, 255, 0.9);
   outline-offset: 0;
   margin: 0;
   border-radius: 0;
   box-shadow: none;
   -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1);
   -webkit-appearance: inherit;
   -moz-appearance: inherit;
   padding: 4px 5px;
@@ -724,17 +731,18 @@
   border-width: 1px 1px 1px 1px;
   width: 100%;
   height: 100%;
-  font-size: 12.5px;
+  font-size: 13px;
   font-family: inherit;
-  border-color: #bfbfbf;
+  border-color: rgba(128, 128, 128, 0.1);
   border-style: solid;
   background-color: white;
-  color: black;
+  color: rgba(255, 255, 255, 0.9);
   outline-offset: 0;
   margin: 0;
   border-radius: 0;
   box-shadow: none;
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1); }
   .cxe-textarea-input:focus {
     border-color: rgba(77, 144, 254, 0.8);
     outline: none;
@@ -848,17 +856,18 @@
   line-height: 16px;
   padding: 5px 5px 5px 5px;
   border-width: 1px 1px 1px 1px;
-  font-size: 12.5px;
+  font-size: 13px;
   font-family: inherit;
-  border-color: #bfbfbf;
+  border-color: rgba(128, 128, 128, 0.1);
   border-style: solid;
   background-color: white;
-  color: black;
+  color: rgba(255, 255, 255, 0.9);
   outline-offset: 0;
   margin: 0;
   border-radius: 0;
   box-shadow: none;
   -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1);
   padding: 10px;
   font-size: 11px;
   font-family: 'Consolas', monospace;
@@ -880,17 +889,18 @@
     line-height: 16px;
     padding: 5px 5px 5px 5px;
     border-width: 1px 1px 1px 1px;
-    font-size: 12.5px;
+    font-size: 13px;
     font-family: inherit;
-    border-color: #bfbfbf;
+    border-color: rgba(128, 128, 128, 0.1);
     border-style: solid;
     background-color: white;
-    color: black;
+    color: rgba(255, 255, 255, 0.9);
     outline-offset: 0;
     margin: 0;
     border-radius: 0;
     box-shadow: none;
     -webkit-appearance: none;
+    background: rgba(255, 255, 255, 0.1);
     line-height: 12px;
     font-size: 11px;
     font-family: 'Consolas', monospace;
@@ -1009,17 +1019,18 @@
   border-width: 1px 1px 1px 1px;
   width: 100%;
   height: 100%;
-  font-size: 12.5px;
+  font-size: 13px;
   font-family: inherit;
-  border-color: #bfbfbf;
+  border-color: rgba(128, 128, 128, 0.1);
   border-style: solid;
   background-color: white;
-  color: black;
+  color: rgba(255, 255, 255, 0.9);
   outline-offset: 0;
   margin: 0;
   border-radius: 0;
   box-shadow: none;
   -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1);
   font-family: monospace;
   font-size: 85%;
   padding-right: 30px; }
@@ -1070,17 +1081,18 @@
   line-height: 16px;
   padding: 5px 5px 5px 5px;
   border-width: 1px 1px 1px 1px;
-  font-size: 12.5px;
+  font-size: 13px;
   font-family: inherit;
-  border-color: #bfbfbf;
+  border-color: rgba(128, 128, 128, 0.1);
   border-style: solid;
   background-color: white;
-  color: black;
+  color: rgba(255, 255, 255, 0.9);
   outline-offset: 0;
   margin: 0;
   border-radius: 0;
   box-shadow: none;
   -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1);
   overflow-y: scroll;
   overflow-x: hidden;
   max-height: 30em;
@@ -1164,17 +1176,18 @@
   border-width: 1px 1px 1px 1px;
   width: 100%;
   height: 100%;
-  font-size: 12.5px;
+  font-size: 13px;
   font-family: inherit;
-  border-color: #bfbfbf;
+  border-color: rgba(128, 128, 128, 0.1);
   border-style: solid;
   background-color: white;
-  color: black;
+  color: rgba(255, 255, 255, 0.9);
   outline-offset: 0;
   margin: 0;
   border-radius: 0;
   box-shadow: none;
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1); }
   .cxe-monthfield-input:focus {
     border-color: rgba(77, 144, 254, 0.8);
     outline: none;
@@ -2506,3 +2519,6 @@ h2 {
 
 .cxe-window-body {
   background: gray; }
+
+.cxb-dropdown {
+  color: black; }
