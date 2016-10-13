@@ -2503,3 +2503,6 @@ h2 {
   border-top: none;
   border-bottom: 1px solid rgba(128, 128, 128, 0.1);
   margin: 2rem 0; }
+
+.cxe-window-body {
+  background: gray; }
