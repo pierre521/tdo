@@ -35,7 +35,8 @@
   .cxb-button:not([disabled]):hover, .cxb-uploadbutton:not([disabled]):hover {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); }
   .cxb-button:not([disabled]):focus, .cxb-uploadbutton:not([disabled]):focus {
-    outline: rgba(77, 144, 254, 0.4) solid 1px; }
+    outline: none;
+    box-shadow: 0 0 1px 1px rgba(77, 144, 254, 0.8); }
   .cxb-button:not([disabled]):active, .cxb-uploadbutton:not([disabled]):active {
     outline: none;
     top: 1px;
@@ -176,6 +177,9 @@
   font-size: 13px;
   line-height: 16px;
   display: inline-block; }
+
+.cxe-label-asterisk {
+  color: #a80000; }
 
 .cxb-textfield {
   position: relative;
@@ -778,8 +782,14 @@
   left: 5px;
   display: inline-block;
   position: absolute; }
+  .cxe-checkbox-checkbox::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+    margin: -1px; }
   .cxe-checkbox-checkbox:focus {
-    outline: rgba(77, 144, 254, 0.4) solid 1px; }
+    box-shadow: inset 0 0 1px 1px rgba(77, 144, 254, 0.8), 0 0 2px 2px rgba(77, 144, 254, 0.8);
+    background: rgba(77, 144, 254, 0.8);
+    outline: 0; }
 
 .cxe-checkbox-text {
   display: inline-block;
@@ -814,9 +824,16 @@
   top: calc(50% - 7px);
   left: 5px;
   display: inline-block;
-  position: absolute; }
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  outline: none; }
+  .cxe-radio-radio::-moz-focus-outer {
+    border: 0; }
   .cxe-radio-radio:focus {
-    outline: rgba(77, 144, 254, 0.4) solid 1px; }
+    box-shadow: 0 0 2px 2px rgba(77, 144, 254, 0.8);
+    background: transparent;
+    border-radius: 50%;
+    outline: none; }
 
 .cxe-radio-text {
   display: inline-block;
@@ -1295,6 +1312,11 @@
   .cxb-slider.cxs-vertical .cxe-slider-handle {
     left: 50%;
     top: 0; }
+
+.cxb-validationerror {
+  color: #dc0009; }
+  .cxb-validationerror.cxm-block {
+    display: block; }
 
 .cxb-tab {
   padding: 5px 10px;
@@ -2197,6 +2219,9 @@
     width: 100%; }
     .cxb-grid.cxm-responsive > .cxe-grid-scroll-area {
       overflow-x: auto; }
+
+.cxe-grid-empty-text {
+  color: #aaa; }
 
 .cxe-grid-col-header {
   text-align: left;
