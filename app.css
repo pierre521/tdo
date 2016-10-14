@@ -2408,7 +2408,10 @@ body {
   width: 29rem; }
 
 .cxe-tasklist-header {
-  margin: 0 0 1rem 0; }
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-style: normal; }
 
 .cxe-tasklist-items {
   margin: 0 0 1rem 0; }
@@ -2459,6 +2462,9 @@ body {
 .cxb-settings {
   padding: 3rem;
   max-width: 50rem; }
+  .cxb-settings h3 {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem; }
 
 .cxb-help {
   padding: 3rem; }
