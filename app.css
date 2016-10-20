@@ -2466,7 +2466,7 @@ html {
 body {
   margin: 0;
   height: 100%;
-  font-family: 'Consolas'; }
+  font-family: 'Consolas', monospace; }
 
 #app {
   height: 100%; }
@@ -2577,7 +2577,7 @@ body {
     display: inline-block;
     width: 6rem; }
     .cxb-help code:last-child {
-      margin-right: 3rem; }
+      margin-right: 2rem; }
 
 body {
   background: #363636;
@@ -2593,6 +2593,11 @@ h2 {
   font-weight: normal;
   font-style: italic;
   margin-top: 0; }
+
+code {
+  background: rgba(128, 128, 128, 0.25);
+  padding: 1px 3px;
+  border-radius: 2px; }
 
 .cxb-tasklist {
   border-right: 1px solid rgba(128, 128, 128, 0.1);
@@ -2616,8 +2621,8 @@ h2 {
       background: rgba(128, 128, 128, 0.5); }
 
 .cxb-help code {
-  background: black;
-  border-radius: 5px;
+  background: rgba(128, 128, 128, 0.25);
+  border-radius: 2px;
   padding: 5px; }
 
 .cxb-help hr {
