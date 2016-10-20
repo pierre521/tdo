@@ -2545,7 +2545,8 @@ body {
     padding: 0.5rem 0;
     font-size: inherit;
     overflow: hidden;
-    display: block; }
+    display: block;
+    box-sizing: border-box; }
     .cxb-task textarea:focus {
       outline: none; }
 
